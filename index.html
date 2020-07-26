@@ -1,212 +1,59 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aamna - Module 2 Solution</title>
-<style>
-
-* {
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Verdana, sans-serif;
-  color:#195159;
-  margin: 0px;
-  padding: 0px;
-}
-
-
-h1 {
-  margin-bottom: 25px;
-  margin-top: 25px;
-  text-align: center;
-  font-size: 28px;
-}
-
-p {
-  font-size: 16px;
-  padding: 10px;
-  clear: both;
-}
-
-.row1,.row2,.row3{
-    box-sizing: border-box;
-    border: 1px solid black;
-    background-color: #E3F8E4;
-    margin-bottom: 15px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.box{
-    border: 1px solid black;
-    width: 100px;
-    height: 30px;
-    float:right;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;  
-}
-#box1{
-    background: #4DC6C1;
-}
-#box2
-    {background: #F86868}
-#box3
-    {
-    background: #F8E06A;
-}
-
-
-
-/**********Desktop*********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    
-  }
-
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-
-  .row{
-    position: relative;
-  }
-  .row1,.row2,.row3{
-    position: relative;
-    width: 30%;
-    }
-    .row1{
-      left: 3%;
-    }
-    .row2{
-      left: 5%;
-    }
-    .row3{
-      left: 7%;
-    }
-   
-
-}
-
-/**********Tablet**********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-   
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-    
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-
-  .row{
-    position: relative;
-  }
-  .row1,.row2,.row3{
-    position: relative;
-    width: 45.75%;
-    }
-    .row1{
-      position: relative;
-      left: 3%;
-    }
-    .row2{
-      position: relative;
-      left: 5.5%;
-    }
-    .row3{
-      position: relative;
-      left: 3%;
-      width: 94%;
-    }
-  
-}
-
-</style>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Aamna</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Module3_Aamna.css">
+  </head>
 <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+    </div>
+  </nav>
 
-<h1>This is Heading</h1>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav visible-xs text-center">
+      <li><a href="#chicken">Chicken</a></li>
+      <li><a href="#">Beef</a></li>
+      <li><a href="#">Sushi</a></li>
+    </ul>
+  </div>
 
-<div class="row">
-  <div class="row1 col-lg-4 col-md-6">
-    <div class="box" id="box1">Title 1</div>  
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-  <div class="row2 col-lg-4 col-md-6">
-    <div class="box" id="box2">Title 2</div>    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-  <div class="row3 col-lg-4 col-md-12">
-    <div class="box" id="box3">Title 3</div>    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-</div>
+  <h2 class="text-center">Our Menu</h2>
 
+  <div class="container-fluid">
+    <div class="row">
+      <section id="chicken" class="chicken-section col-xs-12">
+      <h3 class="text-center">Chicken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Eget mauris pharetra et ultrices neque ornare. Amet cursus sit amet dictum sit amet justo. Cursus metus aliquam eleifend mi. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Sed vulputate mi sit amet mauris. Nunc sed augue lacus viverra. Fermentum dui faucibus in ornare quam viverra. Pellentesque dignissim enim sit amet venenatis urna cursus.
+
+        Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Pretium lectus quam id leo in vitae turpis. Id faucibus nisl tincidunt eget nullam non nisi. Sapien nec sagittis aliquam malesuada bibendum arcu. Eget arcu dictum varius duis at consectetur lorem. Ultrices sagittis orci a scelerisque purus. Gravida neque convallis a cras semper auctor neque vitae tempus. Cras ornare arcu dui vivamus arcu felis. Augue interdum velit euismod in pellentesque massa placerat duis. Nam aliquam sem et tortor consequat id porta nibh. Ac turpis egestas sed tempus. Vulputate enim nulla aliquet porttitor lacus. Orci a scelerisque purus semper eget duis at tellus at. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Ut venenatis tellus in metus vulputate eu scelerisque. Eu lobortis elementum nibh tellus molestie nunc non blandit. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Enim ut tellus elementum sagittis vitae et leo. Purus semper eget duis at. Gravida dictum fusce ut placerat orci nulla.
+        
+        Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Fringilla urna porttitor rhoncus dolor purus. Velit ut tortor pretium viverra suspendisse. Ipsum suspendisse ultrices gravida dictum fusce ut. Non blandit massa enim nec dui nunc mattis enim. Curabitur gravida arcu ac tortor. Vitae tempus quam pellentesque nec nam aliquam sem. Aliquam vestibulum morbi blandit cursus risus at ultrices mi. Id volutpat lacus laoreet non curabitur gravida arcu. Tellus molestie nunc non blandit. Ut faucibus pulvinar elementum integer enim. Tortor at risus viverra adipiscing. Aliquam etiam erat velit scelerisque in. A diam sollicitudin tempor id eu. Ut enim blandit volutpat maecenas volutpat. Felis donec et odio pellentesque diam volutpat commodo sed.
+        
+        Elit ut aliquam purus sit amet luctus venenatis lectus. Imperdiet sed euismod nisi porta lorem. Feugiat in ante metus dictum. Venenatis urna cursus eget nunc scelerisque viverra mauris. Iaculis eu non diam phasellus vestibulum lorem sed. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Mauris in aliquam sem fringilla ut morbi. Magna etiam tempor orci eu lobortis elementum nibh. Interdum posuere lorem ipsum dolor sit amet consectetur. Tortor posuere ac ut consequat semper viverra nam libero justo. Mollis nunc sed id semper risus in hendrerit gravida. Blandit turpis cursus in hac. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Id diam vel quam elementum pulvinar etiam non quam lacus. Vitae semper quis lectus nulla at. Pulvinar sapien et ligula ullamcorper malesuada. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum.
+        
+        Amet venenatis urna cursus eget. Malesuada bibendum arcu vitae elementum curabitur. Bibendum at varius vel pharetra vel. Sed egestas egestas fringilla phasellus faucibus scelerisque. Tortor consequat id porta nibh venenatis cras. Mi sit amet mauris commodo. Faucibus et molestie ac feugiat. Mattis pellentesque id nibh tortor. Porttitor rhoncus dolor purus non enim praesent. Lorem sed risus ultricies tristique. Dignissim sodales ut eu sem integer vitae justo eget magna. Ullamcorper morbi tincidunt ornare massa eget. Duis ut diam quam nulla porttitor massa id. Blandit turpis cursus in hac habitasse platea. Purus in massa tempor nec feugiat nisl.
+      </p>
+      <a href="#chicken">Back to Top</a>
+      </section>
+    </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
